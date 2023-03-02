@@ -1,0 +1,44 @@
+[debug] [2023-02-17T07:57:39.165Z] ----------------------------------------------------------------------
+[debug] [2023-02-17T07:57:39.168Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SW\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-17T07:57:39.168Z] CLI Version:   11.23.1
+[debug] [2023-02-17T07:57:39.168Z] Platform:      win32
+[debug] [2023-02-17T07:57:39.168Z] Node Version:  v19.5.0
+[debug] [2023-02-17T07:57:39.169Z] Time:          Fri Feb 17 2023 16:57:39 GMT+0900 (대한민국 표준시)
+[debug] [2023-02-17T07:57:39.169Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-17T07:57:39.222Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-17T07:57:39.222Z] > authorizing via signed-in user (amfydrkfl2@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React\Work\lecreact
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-17T07:57:44.740Z] Using project from CLI flag: reactclock-5a3c7
+[debug] [2023-02-17T07:57:44.743Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactclock-5a3c7 [none]
+[debug] [2023-02-17T07:57:45.186Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactclock-5a3c7 200
+[debug] [2023-02-17T07:57:45.186Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactclock-5a3c7 {"projectId":"reactclock-5a3c7","projectNumber":"491343079218","displayName":"ReactClock","name":"projects/reactclock-5a3c7","resources":{"hostingSite":"reactclock-5a3c7"},"state":"ACTIVE","etag":"1_390273d2-d86a-4769-940d-be86841b6cfb"}
+[info] i  Using project reactclock-5a3c7 (ReactClock) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

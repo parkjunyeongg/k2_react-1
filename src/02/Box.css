@@ -1,0 +1,44 @@
+.bheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.rowDiv {
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    width : 60vw;
+    height : 8vh;
+    border-bottom: 1px solid gainsboro;
+}
+
+#colrank {
+    width : 10%;
+}
+#colmovieN {
+    width : 60%;
+}
+#colsalesAmt {
+    width : 20%;
+}
+#colrankInten {
+    width : 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    width: 100vw;
+    height: 10vh;
+    
+}

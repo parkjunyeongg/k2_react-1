@@ -1,0 +1,12 @@
+.button {
+    display: inline-flex;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(7, 45, 22);
+    margin: 10px;
+}
+
+#msg span {
+    color: darkgreen;
+}
